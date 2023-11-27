@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}" />
+</head>
+<body>
+
+<div class="container">
+    <h1>Weather Dashboard</h1>
+
+    <!-- Real-time Weather Section -->
+    <div id="real-time-weather">
+        <h2>Real-time Weather</h2>
+        <!-- Weather data will be dynamically inserted here using JavaScript -->
+        <div id="weather-container"></div>
+    </div>
+
+    <!-- Hourly Forecast Section -->
+    <div id="hourly-forecast">
+        <h2>Hourly Forecast</h2>
+        <!-- Hourly forecast data will be dynamically inserted here using JavaScript -->
+        <div id="hourly-forecast-container"></div>
+    </div>
+
+    <!-- Dynamic Clock -->
+    <div id="dynamic-clock">
+        <h2>Current Time</h2>
+        <div id="clock"></div>
+    </div>
+
+    <script th:src="@{/js/script.js}"></script>
+</div>
+
+</body>
+</html>

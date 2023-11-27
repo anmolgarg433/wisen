@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+#real-time-weather, #hourly-forecast, #dynamic-clock {
+    margin-bottom: 30px;
+}
+
+.weather-card, .forecast-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+#clock {
+    font-size: 24px;
+}

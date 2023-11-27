@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "src\\main\\java\\com.example.weather\\controller",
+        "src\\main\\java\\com.example.weather\\repository",
+        "src\\main\\java\\com.example.weather\\scheduler",
+        "src\\main\\java\\com.example.weather\\service"
+    ]
+}
